@@ -1,0 +1,103 @@
+- id: rc2
+  name: Operational Risks
+  description: >-
+    Risks related to the organization's day-to-day operational processes,
+    systems, and activities that could disrupt business continuity and
+    efficiency.
+  risks:
+    - id: r4
+      name: Supply Chain Disruption
+      description: Risk of disruptions in the supply chain affecting production
+      impacts:
+        - description: Production Delays
+          level: High
+        - description: Increased Costs
+          level: Medium
+        - description: Customer Dissatisfaction
+          level: High
+      relatedControls:
+        - c5
+        - c6
+        - c11
+      comments: []
+    - id: r5
+      name: IT System Failure
+      description: Risk of critical IT systems failing or being unavailable
+      impacts:
+        - description: Business Interruption
+          level: High
+        - description: Data Loss
+          level: High
+        - description: Reputational Damage
+          level: Medium
+      relatedControls:
+        - c7
+        - c12
+        - c13
+      comments: []
+    - id: r6
+      name: Talent Shortage
+      description: Risk of not being able to attract or retain key talent
+      impacts:
+        - description: Productivity Loss
+          level: Medium
+        - description: Innovation Decline
+          level: Medium
+        - description: Increased Labor Costs
+          level: Low
+      relatedControls:
+        - c4
+        - c14
+      comments: []
+- id: rc4
+  name: Compliance Risks
+  description: >-
+    Risks related to compliance with laws, regulations, standards, and internal
+    policies that could result in legal penalties, regulatory sanctions, or
+    reputational damage.
+  risks:
+    - id: r10
+      name: Data Privacy Breach
+      description: Risk of unauthorized access or disclosure of sensitive data
+      impacts:
+        - description: Regulatory Fines
+          level: High
+        - description: Legal Liability
+          level: High
+        - description: Reputational Damage
+          level: High
+      relatedControls:
+        - c3
+        - c8
+        - c13
+      comments: []
+    - id: r11
+      name: Regulatory Non-Compliance
+      description: Risk of failing to comply with applicable laws and regulations
+      impacts:
+        - description: Regulatory Penalties
+          level: High
+        - description: Business Restrictions
+          level: Medium
+        - description: Legal Costs
+          level: Medium
+      relatedControls:
+        - c3
+        - c9
+        - c19
+      comments: []
+    - id: r12
+      name: Ethical Misconduct
+      description: Risk of employees engaging in unethical or fraudulent activities
+      impacts:
+        - description: Financial Loss
+          level: Medium
+        - description: Reputational Damage
+          level: High
+        - description: Employee Morale Impact
+          level: Medium
+      relatedControls:
+        - c9
+        - c19
+        - c20
+      comments: []
