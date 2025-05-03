@@ -1,0 +1,40 @@
+- id: f1
+  name: Corporate Risk Management Framework
+  description: The primary framework for managing corporate-wide risks and controls
+  version: '1.0'
+  lastUpdated: '2023-01-15'
+  owner: Risk Management Department
+  riskCategoryIds:
+    - rc1
+    - rc2
+    - rc3
+    - rc4
+  controlCategoryIds:
+    - cc1
+    - cc2
+    - cc3
+    - cc4
+- id: f2
+  name: IT Governance Framework
+  description: Framework focused on IT-related risks and controls
+  version: '2.1'
+  lastUpdated: '2023-03-22'
+  owner: IT Department
+  riskCategoryIds:
+    - rc2
+    - rc4
+  controlCategoryIds:
+    - cc2
+    - cc4
+- id: f3
+  name: Financial Compliance Framework
+  description: Framework for managing financial compliance risks and controls
+  version: '1.2'
+  lastUpdated: '2023-02-10'
+  owner: Finance Department
+  riskCategoryIds:
+    - rc3
+    - rc4
+  controlCategoryIds:
+    - cc3
+    - cc4
