@@ -1,0 +1,108 @@
+- id: cc3
+  name: Financial Controls
+  description: >-
+    Controls designed to safeguard financial assets, ensure accurate financial
+    reporting, and maintain financial stability and performance.
+  controls:
+    - id: c15
+      name: Cash Flow Forecasting
+      description: Regular forecasting and monitoring of cash flows
+      type: Detective
+      frequency: Weekly
+      owner: Finance Department
+      effectiveness: High
+      relatedRisks:
+        - r7
+        - r9
+      comments: []
+    - id: c16
+      name: Liquidity Management
+      description: Maintaining adequate liquid assets and credit facilities
+      type: Preventive
+      frequency: Continuous
+      owner: Treasury
+      effectiveness: High
+      relatedRisks:
+        - r7
+        - r8
+      comments: []
+    - id: c17
+      name: Hedging Strategy
+      description: Use of financial instruments to hedge against currency fluctuations
+      type: Preventive
+      frequency: Quarterly
+      owner: Treasury
+      effectiveness: Medium
+      relatedRisks:
+        - r8
+      comments: []
+    - id: c18
+      name: Credit Assessment
+      description: Processes for assessing and monitoring customer creditworthiness
+      type: Preventive
+      frequency: Continuous
+      owner: Credit Department
+      effectiveness: Medium
+      relatedRisks:
+        - r9
+      comments: []
+- id: cc4
+  name: Compliance Controls
+  description: >-
+    Controls designed to ensure adherence to laws, regulations, standards, and
+    internal policies to prevent legal and regulatory violations.
+  controls:
+    - id: c8
+      name: Compliance Training
+      description: Regular training for employees on compliance requirements
+      type: Preventive
+      frequency: Annual
+      owner: Compliance Department
+      effectiveness: Medium
+      relatedRisks:
+        - r2
+        - r10
+      comments: []
+    - id: c9
+      name: Compliance Monitoring
+      description: Regular monitoring and testing of compliance with regulations
+      type: Detective
+      frequency: Quarterly
+      owner: Compliance Department
+      effectiveness: High
+      relatedRisks:
+        - r2
+        - r11
+        - r12
+      comments: []
+    - id: c10
+      name: Due Diligence Process
+      description: Thorough due diligence process for acquisitions and partnerships
+      type: Preventive
+      frequency: As Needed
+      owner: Legal Department
+      effectiveness: High
+      relatedRisks:
+        - r3
+      comments: []
+    - id: c19
+      name: Whistleblower Program
+      description: Confidential channel for reporting ethical concerns
+      type: Detective
+      frequency: Continuous
+      owner: Ethics Office
+      effectiveness: Medium
+      relatedRisks:
+        - r11
+        - r12
+      comments: []
+    - id: c20
+      name: Code of Conduct
+      description: Clear guidelines for ethical behavior and consequences for violations
+      type: Preventive
+      frequency: Continuous
+      owner: Ethics Office
+      effectiveness: Medium
+      relatedRisks:
+        - r12
+      comments: []
