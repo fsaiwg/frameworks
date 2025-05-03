@@ -1,0 +1,138 @@
+- id: cc2
+  name: Operational Controls
+  description: >-
+    Controls designed to ensure the efficiency, effectiveness, and reliability
+    of day-to-day operations, processes, and systems.
+  controls:
+    - id: c5
+      name: Supplier Diversification
+      description: Maintaining multiple suppliers for critical components
+      type: Preventive
+      frequency: Continuous
+      owner: Procurement
+      effectiveness: High
+      relatedRisks:
+        - r4
+      comments: []
+    - id: c6
+      name: Inventory Management
+      description: Processes for optimizing inventory levels and preventing stockouts
+      type: Preventive
+      frequency: Daily
+      owner: Operations
+      effectiveness: Medium
+      relatedRisks:
+        - r4
+      comments: []
+    - id: c7
+      name: IT Disaster Recovery
+      description: Plans and procedures for recovering IT systems after a disruption
+      type: Corrective
+      frequency: As Needed
+      owner: IT Department
+      effectiveness: High
+      relatedRisks:
+        - r1
+        - r5
+      comments: []
+    - id: c11
+      name: Supply Chain Visibility
+      description: Systems for tracking and monitoring the supply chain in real-time
+      type: Detective
+      frequency: Continuous
+      owner: Supply Chain
+      effectiveness: Medium
+      relatedRisks:
+        - r4
+      comments: []
+    - id: c12
+      name: System Redundancy
+      description: Redundant systems and components to prevent single points of failure
+      type: Preventive
+      frequency: Continuous
+      owner: IT Department
+      effectiveness: High
+      relatedRisks:
+        - r5
+      comments: []
+    - id: c13
+      name: Data Backup
+      description: Regular backup of critical data to prevent data loss
+      type: Preventive
+      frequency: Daily
+      owner: IT Department
+      effectiveness: High
+      relatedRisks:
+        - r5
+        - r10
+      comments: []
+    - id: c14
+      name: Competitive Compensation
+      description: Compensation packages designed to attract and retain talent
+      type: Preventive
+      frequency: Annual
+      owner: Human Resources
+      effectiveness: Medium
+      relatedRisks:
+        - r6
+      comments: []
+- id: cc4
+  name: Compliance Controls
+  description: >-
+    Controls designed to ensure adherence to laws, regulations, standards, and
+    internal policies to prevent legal and regulatory violations.
+  controls:
+    - id: c8
+      name: Compliance Training
+      description: Regular training for employees on compliance requirements
+      type: Preventive
+      frequency: Annual
+      owner: Compliance Department
+      effectiveness: Medium
+      relatedRisks:
+        - r2
+        - r10
+      comments: []
+    - id: c9
+      name: Compliance Monitoring
+      description: Regular monitoring and testing of compliance with regulations
+      type: Detective
+      frequency: Quarterly
+      owner: Compliance Department
+      effectiveness: High
+      relatedRisks:
+        - r2
+        - r11
+        - r12
+      comments: []
+    - id: c10
+      name: Due Diligence Process
+      description: Thorough due diligence process for acquisitions and partnerships
+      type: Preventive
+      frequency: As Needed
+      owner: Legal Department
+      effectiveness: High
+      relatedRisks:
+        - r3
+      comments: []
+    - id: c19
+      name: Whistleblower Program
+      description: Confidential channel for reporting ethical concerns
+      type: Detective
+      frequency: Continuous
+      owner: Ethics Office
+      effectiveness: Medium
+      relatedRisks:
+        - r11
+        - r12
+      comments: []
+    - id: c20
+      name: Code of Conduct
+      description: Clear guidelines for ethical behavior and consequences for violations
+      type: Preventive
+      frequency: Continuous
+      owner: Ethics Office
+      effectiveness: Medium
+      relatedRisks:
+        - r12
+      comments: []
