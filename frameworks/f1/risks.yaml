@@ -1,0 +1,211 @@
+- id: rc1
+  name: Strategic Risks
+  description: >-
+    Risks related to the organization's strategic objectives and decisions that
+    could impact long-term success, market position, and competitive advantage.
+  risks:
+    - id: r1
+      name: Market Disruption
+      description: Risk of new technologies or competitors disrupting the market
+      impacts:
+        - description: Revenue Loss
+          level: High
+        - description: Market Share Decline
+          level: High
+        - description: Brand Damage
+          level: Medium
+      relatedControls:
+        - c1
+        - c2
+        - c7
+      comments:
+        - id: comment1
+          author: John Smith
+          date: '2023-05-15'
+          content: We should review this quarterly given recent market changes.
+    - id: r2
+      name: Regulatory Changes
+      description: Risk of changes in regulations affecting business operations
+      impacts:
+        - description: Compliance Costs
+          level: Medium
+        - description: Operational Constraints
+          level: Medium
+        - description: Legal Penalties
+          level: High
+      relatedControls:
+        - c3
+        - c8
+        - c9
+      comments:
+        - id: comment2
+          author: Sarah Johnson
+          date: '2023-06-02'
+          content: The impact level might need to be increased based on recent events.
+    - id: r3
+      name: Acquisition Integration
+      description: Risk of failing to successfully integrate acquired companies
+      impacts:
+        - description: Financial Loss
+          level: High
+        - description: Operational Disruption
+          level: Medium
+        - description: Cultural Conflicts
+          level: Medium
+      relatedControls:
+        - c2
+        - c4
+        - c10
+      comments: []
+- id: rc2
+  name: Operational Risks
+  description: >-
+    Risks related to the organization's day-to-day operational processes,
+    systems, and activities that could disrupt business continuity and
+    efficiency.
+  risks:
+    - id: r4
+      name: Supply Chain Disruption
+      description: Risk of disruptions in the supply chain affecting production
+      impacts:
+        - description: Production Delays
+          level: High
+        - description: Increased Costs
+          level: Medium
+        - description: Customer Dissatisfaction
+          level: High
+      relatedControls:
+        - c5
+        - c6
+        - c11
+      comments: []
+    - id: r5
+      name: IT System Failure
+      description: Risk of critical IT systems failing or being unavailable
+      impacts:
+        - description: Business Interruption
+          level: High
+        - description: Data Loss
+          level: High
+        - description: Reputational Damage
+          level: Medium
+      relatedControls:
+        - c7
+        - c12
+        - c13
+      comments: []
+    - id: r6
+      name: Talent Shortage
+      description: Risk of not being able to attract or retain key talent
+      impacts:
+        - description: Productivity Loss
+          level: Medium
+        - description: Innovation Decline
+          level: Medium
+        - description: Increased Labor Costs
+          level: Low
+      relatedControls:
+        - c4
+        - c14
+      comments: []
+- id: rc3
+  name: Financial Risks
+  description: >-
+    Risks related to the organization's financial health, stability, and
+    performance that could impact profitability, liquidity, and overall
+    financial position.
+  risks:
+    - id: r7
+      name: Liquidity Risk
+      description: Risk of not having sufficient liquid assets to meet obligations
+      impacts:
+        - description: Default on Obligations
+          level: High
+        - description: Increased Borrowing Costs
+          level: Medium
+        - description: Forced Asset Sales
+          level: Medium
+      relatedControls:
+        - c15
+        - c16
+      comments: []
+    - id: r8
+      name: Foreign Exchange Risk
+      description: Risk of financial loss due to currency exchange rate fluctuations
+      impacts:
+        - description: Reduced Profit Margins
+          level: Medium
+        - description: Earnings Volatility
+          level: Medium
+        - description: Competitive Disadvantage
+          level: Low
+      relatedControls:
+        - c16
+        - c17
+      comments: []
+    - id: r9
+      name: Credit Risk
+      description: Risk of financial loss from counterparties failing to meet obligations
+      impacts:
+        - description: Bad Debt Write-offs
+          level: Medium
+        - description: Cash Flow Disruption
+          level: Medium
+        - description: Working Capital Strain
+          level: Medium
+      relatedControls:
+        - c15
+        - c18
+      comments: []
+- id: rc4
+  name: Compliance Risks
+  description: >-
+    Risks related to compliance with laws, regulations, standards, and internal
+    policies that could result in legal penalties, regulatory sanctions, or
+    reputational damage.
+  risks:
+    - id: r10
+      name: Data Privacy Breach
+      description: Risk of unauthorized access or disclosure of sensitive data
+      impacts:
+        - description: Regulatory Fines
+          level: High
+        - description: Legal Liability
+          level: High
+        - description: Reputational Damage
+          level: High
+      relatedControls:
+        - c3
+        - c8
+        - c13
+      comments: []
+    - id: r11
+      name: Regulatory Non-Compliance
+      description: Risk of failing to comply with applicable laws and regulations
+      impacts:
+        - description: Regulatory Penalties
+          level: High
+        - description: Business Restrictions
+          level: Medium
+        - description: Legal Costs
+          level: Medium
+      relatedControls:
+        - c3
+        - c9
+        - c19
+      comments: []
+    - id: r12
+      name: Ethical Misconduct
+      description: Risk of employees engaging in unethical or fraudulent activities
+      impacts:
+        - description: Financial Loss
+          level: Medium
+        - description: Reputational Damage
+          level: High
+        - description: Employee Morale Impact
+          level: Medium
+      relatedControls:
+        - c9
+        - c19
+        - c20
+      comments: []
